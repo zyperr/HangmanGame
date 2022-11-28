@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del Ahorcado</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/b8382c93be.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!------google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="darkmode">
+        <button class="darkmode__button"><i class='bx bxs-sun'></i></button>
+    </div>
+    <div class="container">
+        <div class="social-media">
+            <div class="links-media"><a class="active-link"href="https://github.com/zyperr/zyperr.github.io"><i class="fa-brands fa-square-github icons"></a></i></div>
+            <div class="links-media"><a class="active-link"href="https://www.linkedin.com/in/maximiliano-vera-85571a248/"><i class="fa-brands fa-linkedin icons"></i></a></div>
+        </div>
+        <button class="start">Empezar</button>
+    </div>
+    <section class="game__container">
+        <canvas id="canvas"></canvas>
+        <div class="screen_word">
+            <div class="letters"></div>
+        </div>
+        <div class="Container__keys">
+            <button>
+                q
+            </button>
+            <button>
+                w
+            </button>
+            <button>
+                e
+            </button>
+            <button>
+                r
+            </button>
+            <button>
+                t
+            </button>
+            <button>
+                y   
+            </button>
+            <button>
+                u
+            </button>
+            <button>
+                i
+            </button>
+            <button>
+                o
+            </button>
+            <button>
+                p
+            </button>
+            <button>
+                a
+            </button>
+            <button>
+                s
+            </button>
+            <button>
+                d
+            </button>
+            <button>
+                f
+            </button>
+            <button>
+                g
+            </button>
+            <button>
+                h
+            </button>
+            <button>
+                j
+            </button>
+            <button>
+                k
+            </button>
+            <button>
+                l
+            </button>
+            <button>
+                ñ
+            </button>
+            <button>
+                z
+            </button>
+            <button>
+                x
+            </button>
+            <button>
+                c
+            </button>
+            <button>
+                v
+            </button>
+            <button>
+                b
+            </button>
+            <button>
+                n
+            </button>
+            <button>
+                m       
+            </button>
+        </div>
+        <div class="container-final-msg">
+            <div class="final-msg">
+                <h2 class="lose-win"></h2>
+                <p>La palabra era <span class="correctWord"></span></p>
+                <button class="play__Again">Jugar de nuevo</button>
+            </div>
+        </div>
+    </section>
+    <script src="js/app.js"></script>
+</body>
+</html>
