@@ -185,7 +185,6 @@ const GameStart = () => {
     ];
     let randomWord = Math.floor(Math.random()*words.length);
     let word = words[randomWord].toLowerCase();
-    console.log(word);
     //Replace every letter with a dash
     let displayItem = word.replace(/./g,'<span class="dashes">_</span>');
 
