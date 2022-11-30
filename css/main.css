@@ -336,6 +336,19 @@
     width: 250px;
     left: 10%;
   }
+  .game__container .final-msg {
+    width: 280px;
+    height: 500px;
+    left: 25px;
+    border-radius: 10px;
+  }
+  .game__container .final-msg .lose-win {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  .game__container .final-msg p {
+    font-size: 1.7rem;
+  }
 }
 @media screen and (min-width: 375px) {
   .container .social-media {
@@ -364,6 +377,16 @@
   .game__container #canvas {
     left: 20%;
   }
+  .game__container .final-msg {
+    width: 300px;
+    height: 500px;
+    left: 40px;
+    border-radius: 10px;
+  }
+  .game__container .final-msg .lose-win {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
 }
 @media screen and (min-width: 425px) {
   .container .social-media {
@@ -387,6 +410,16 @@
     height: 150px;
     width: 280px;
     left: 20%;
+  }
+  .game__container .final-msg {
+    width: 300px;
+    height: 500px;
+    left: 75px;
+    border-radius: 10px;
+  }
+  .game__container .final-msg .lose-win {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -417,6 +450,17 @@
     width: 500px;
     height: 245px;
     left: 20%;
+  }
+  .game__container .final-msg {
+    left: 155px;
+    width: 500px;
+  }
+  .game__container .final-msg .lose-win {
+    font-size: 3rem;
+    margin-bottom: 30px;
+  }
+  .game__container .final-msg p {
+    font-size: 2.3rem;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -450,6 +494,9 @@
     width: 500px;
     left: 25%;
   }
+  .game__container .final-msg {
+    left: 255px;
+  }
 }
 @media screen and (min-width: 1440px) {
   .game__container .Container__keys {
@@ -474,6 +521,9 @@
     top: 15%;
     left: 36%;
   }
+  .game__container .final-msg {
+    left: 520px;
+  }
 }
 @media screen and (min-width: 1843px) {
   .darkmode {
@@ -496,6 +546,9 @@
   .game__container #canvas {
     top: 15%;
     left: 36%;
+  }
+  .game__container .final-msg {
+    left: 670px;
   }
 }
 
