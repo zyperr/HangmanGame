@@ -357,35 +357,39 @@
     bottom: 30px;
   }
   .darkmode {
-    left: 41.5%;
+    left: 39.5%;
+    top: 10px;
   }
   .game__container .Container__keys {
-    transform: translate(13%, -34%);
-    width: 80vw;
+    transform: translate(25%, -16%);
+    width: 70vw;
   }
   .game__container .Container__keys button {
     padding: 1rem 1.2rem;
     margin: 8px;
   }
   .game__container .screen_word {
-    width: 82%;
-    height: 35px;
+    width: 72%;
+    height: 25px;
     position: absolute;
-    left: 9%;
-    top: 35.4%;
+    left: 17%;
+    top: 40.4%;
   }
   .game__container #canvas {
     left: 20%;
   }
   .game__container .final-msg {
     width: 300px;
-    height: 500px;
+    height: 300px;
     left: 40px;
     border-radius: 10px;
   }
   .game__container .final-msg .lose-win {
     font-size: 2.5rem;
     margin-bottom: 30px;
+  }
+  .game__container .final-msg p {
+    text-align: center;
   }
 }
 @media screen and (min-width: 425px) {
